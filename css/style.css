@@ -94,12 +94,19 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 70px 105px;
+    gap: 105px 70px;
 }
 
-            /* service-list-ilem */
+.service-list-item{
+    display: flex;
+    max-width: 330px;
+}
 
-            /* service-list-img */
+
+.service-list-img{
+
+    padding-right: 20px;
+}
 
 .team-list-title-desc{
     padding-top: 100px;
@@ -166,6 +173,8 @@
 .team-title-desc{
     padding-top: 45px;
     padding-bottom: 27px;
+
+    color: var(--p-first-ul-and-additional-text-color);
 }
 
 .team-list-desc{
