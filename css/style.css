@@ -1,0 +1,243 @@
+:root{
+    --logo-navigation-button-color:rgba(149, 225, 211, 1);
+    --animation-navigation-Laaqiq-and-decor-colorL:rgba(243, 129, 129, 1);
+    --title-color:rgba(51, 51, 51, 1);
+    --p-first-ul-and-additional-text-color:rgba(182, 182, 182, 1);
+    --button-in-button-color:rgba(255, 255, 255, 1);
+
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;  
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrap{
+    padding: 32px 0;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: var(--logo-navigation-button-color);
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.nav-list-item{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    color: var(--logo-navigation-button-color);
+}
+
+.service-title-desc{
+    padding-top: 68px;
+}
+
+.service-title-desc, .servicce-title, .team-list-title-desc, .team-list-title-title{
+    display: flex;
+    justify-content: center;
+}
+
+.servicce-title{
+    padding-top: 20px;
+    padding-bottom: 109px;
+}
+
+.service-title-div-decor::after{
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 65px;
+
+    content: url('./decor/decor-under-title.png');
+}
+
+.service-title-desc, .team-list-title-desc{
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    color: var(--title-color);
+}
+
+.servicce-title, .team-list-title-title{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+            /* service-list */
+
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px 105px;
+}
+
+            /* service-list-ilem */
+
+            /* service-list-img */
+
+.team-list-title-desc{
+    padding-top: 100px;
+}
+
+.team-list-title-title{
+    padding-top: 17px;
+}
+
+.service-list-title{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    color: var(--title-color);
+}
+
+.service-list-desc{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    max-width: 300px;
+
+    color: var(--title-color);
+}
+
+.team-title-desc{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--title-color);
+}
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    border-bottom:solid 1px var(--p-first-ul-and-additional-text-color);
+}
+
+.team-list-item{
+    text-align: center;
+}
+            /* team-list-img */
+
+.team-list-title{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    padding-top: 30px;
+
+    color: var(--title-color);
+}
+
+.team-title-desc{
+    padding-top: 45px;
+    padding-bottom: 27px;
+}
+
+.team-list-desc{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2;  
+
+    padding-top: 11px;
+    padding-bottom: 80px;
+
+    color: var(--p-first-ul-and-additional-text-color);
+}       
+
+            /* footer */
+
+.footer-desc{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    color: var(--title-color);
+}
+
+.footer-desc-link{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic; 
+    font-weight: 300;
+    line-height: 1.1;
+
+    color: var(--animation-navigation-Laaqiq-and-decor-colorL);
+}
+
+            /* footer-button */
+.footer-nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
+
+.footer-nav-list-button{
+    border: solid 1px var(--p-first-ul-and-additional-text-color);
+    background-color: #fff;
+}
+
+.footer-button-desc{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic; 
+    font-weight: 300;
+    line-height: 1.1;
+
+    padding: 11px 145px 11px 10px;
+
+    color: var(--p-first-ul-and-additional-text-color);
+}
+
+.footer-button-in-button{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    padding: 12px 38px;
+
+    color: var(--button-in-button-color);
+
+    background-color: var(--logo-navigation-button-color);
+}
